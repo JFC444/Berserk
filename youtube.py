@@ -1,7 +1,7 @@
-print("Hello World")
-print("7")
-print(7 + 4)
-print(3 + 2 * 2 -1)
-print(2.4 * 5)
-name = "Guts"
-print(name)
+value1 = input("Erste Zahl eingeben:")
+value2 = input("Zweite Zahl eingeben:")
+
+print(value1)
+print(value2) 
+typeofvalue = type(value1)
+print(typeofvalue)

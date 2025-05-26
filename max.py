@@ -26,6 +26,6 @@ hobby = "Demonen jagen"
 charakter = "fucked up"
 
 # Satz-Ausgabe
-print(f"{name} ist ein {alter}-jährige {geschlecht}e {beruf}.")
+print(f"{name} ist ein {alter}-jähriger {geschlecht}er {beruf}.")
 print(f"Er ist {groesse} groß, wiegt {gewicht}, hat {augenfarbe}e Augen und {haarfarbe}e Haare.")
 print(f"Er killt leidenschaftlich gerne und ist bekannt für seine {charakter} Art.")
