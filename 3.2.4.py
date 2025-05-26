@@ -1,7 +1,14 @@
-antwort = input("Welche Antwort wählst du? (A, B, C, D): ").upper()
-richtige_antwort = "C"
+gewicht = float(input("Gib dein Gewicht in kg ein: "))
+groesse = float(input("Gib deine Größe in Metern ein (z. B. 1.75): "))
 
-if antwort == richtige_antwort:
-    print("✅ Richtig!")
+bmi = gewicht / (groesse ** 2)
+print(f"Dein BMI ist: {bmi:.2f}")
+
+if bmi < 18.5:
+    print("Untergewicht")
+elif 18.5 <= bmi < 25:
+    print("Normalgewicht")
+elif 25 <= bmi < 30:
+    print("Übergewicht")
 else:
-    print("❌ Falsch. Die richtige Antwort ist C.")
+    print("Starkes Übergewicht")
