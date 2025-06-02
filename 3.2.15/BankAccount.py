@@ -34,10 +34,4 @@ class BankAccount:
     def __str__(self):
         return f"Konto von {self.kontoinhaber} - Kontostand: {self.kontostand:.2f} €" 
     
-konto = BankAccount("Ryou Hikari")
-print(konto)
-konto.einzahlen(1000)
-konto.abheben(500)
-konto.abheben(50)
-konto.zinsen_berechnen(5)
-print(konto) 
+

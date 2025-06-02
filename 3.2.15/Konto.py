@@ -1,0 +1,16 @@
+from BankAccount import BankAccount
+
+konto = BankAccount("Ryou Hikari")
+print(konto)
+konto.einzahlen(1000)
+konto.abheben(500)
+konto.abheben(1050)
+konto.zinsen_berechnen(5)
+print(konto)    
+konto.zeige_kontostand()
+konto.einzahlen(200)
+konto.abheben(300)
+konto.zeige_kontostand()
+konto.zinsen_berechnen(3)
+konto.zeige_kontostand()
+print(konto)      

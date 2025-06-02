@@ -24,5 +24,5 @@ class BankAccount:
 
 konto = BankAccount("Guts Berserker")
 konto.einzahlen(500)
-konto.abheben(200)
+konto.abheben(700)
 konto.abheben(50) 
